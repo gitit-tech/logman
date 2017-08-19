@@ -5,8 +5,10 @@
  */
 package com.gitittech.errorman;
 
-import com.gitittech.errorman.builders.LogBuilder;
-import com.gitittech.errorman.config.ConfigurationManager;
+import com.gitittech.syswriter.LogMan;
+import com.gitittech.syswriter.Level;
+import com.gitittech.syswriter.builders.LogBuilder;
+import com.gitittech.syswriter.config.ConfigurationManager;
 import java.util.List;
 import javax.persistence.EntityManager;
 import org.junit.After;

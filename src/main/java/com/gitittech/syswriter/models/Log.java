@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.gitittech.errorman.models;
+package com.gitittech.syswriter.models;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -72,7 +72,7 @@ public class Log implements Serializable {
     @Column(name = "date_created")
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateCreated = new Date();
-
+    
     public Log() {
     }
 

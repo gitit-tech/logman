@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.gitittech.errorman;
-
-import com.gitittech.errorman.models.Log;
+package com.gitittech.syswriter;
 
 /**
  *
  * @author Ambrose Ariagiegbe
  */
-public interface ILogMan {
-    void respond(Log log);
+public enum Level {
+    DEBUG,
+    INFO,
+    WARNING,
+    ERROR
 }

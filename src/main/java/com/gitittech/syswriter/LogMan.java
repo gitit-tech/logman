@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.gitittech.errorman;
+package com.gitittech.syswriter;
 
-import com.gitittech.errorman.config.ConfigurationManager;
-import com.gitittech.errorman.models.Log;
+import com.gitittech.syswriter.config.ConfigurationManager;
+import com.gitittech.syswriter.models.Log;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import javax.persistence.EntityManager;

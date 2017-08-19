@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.gitittech.errorman.builders;
+package com.gitittech.syswriter.builders;
 
-import com.gitittech.errorman.LogMan;
-import com.gitittech.errorman.Level;
-import com.gitittech.errorman.models.Log;
+import com.gitittech.syswriter.LogMan;
+import com.gitittech.syswriter.Level;
+import com.gitittech.syswriter.models.Log;
 
 /**
  *
